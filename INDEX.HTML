@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 user-scalable=no">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="estilo.css">
+    <title>Desarrollador Web</title>
+</head>
+
+<body>
+    <!-- SECCION I N I C I O -->
+    <section id="inicio">
+        <div class="contenido">
+            <header>
+                <div class="contenido-header">
+                    <h1>/M&S/</h1>
+                    <nav id="nav" class="">
+                        <ul id="links">
+                            <li><a href="#inicio" class="seleccionado" onclick="seleccionar(this)">INICIO</a></li>
+                            <li><a href="#sobremi" onclick="seleccionar(this)">SOBRE MI</a></li>
+                            <li><a href="#servicios" onclick="seleccionar(this)">SERVICIOS</a></li>
+                            <li><a href="#portfolio" onclick="seleccionar(this)">PORTFOLIO</a></li>
+                            <li><a href="#contacto" onclick="seleccionar(this)">CONTACTO</a></li>
+                        </ul>
+                    </nav>
+
+                    <!-- Icono del menu responsive -->
+                    <div id="icono-nav" onclick="responsiveMenu()">
+                        <i class="fa-solid fa-bars"></i>
+                    </div>
+
+
+                    <div class="redes">
+                        <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="#"><i class="fa-brands fa-instagram-square"></i></a>
+                    </div>
+                </div>
+            </header>
+            <div class="presentacion">
+                <p class="bienvenida">Bienvenidos</p>
+                <h2>Soy <span>Maria Montes</span> Estidiante de Analisis y Desarrollo de Sofware</h2>
+                <p class="descripcion"> </p>
+                <a href="#portfolio">Ir a Portafolio</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION S O B R E M I -->
+    <section id="sobremi">
+        <div class="contenedor-foto">
+            <img src="6.jpg" alt="">
+        </div>
+        <div class="sobremi">
+            <p class="titulo-seccion">Sobre Mi</p>
+            <h2>Hola, soy <span>Maria Montes</span> </h2>
+            <h3>estudiante Analiss y Desarrollo de software</h3>
+            <p>Soy estudiante de análisis y desarrollo de software y, aunque soy un poco tímida y no socializo mucho, tengo el deseo de construir nuevas amistades auténticas que brinden una conexión sincera. Aunque enfrento dificultades para comprender algunos temas en mis estudios, estoy decidida a esforzarme al máximo para graduarme y convertirme en una excelente ingeniera.
+                
+                A pesar de que algunas personas dudan de mis habilidades, su falta de confianza en mí es lo que más me motiva a demostrarles que soy capaz de superar cualquier obstáculo académico. Además, disfruto del K-pop, una música que me apasiona y me llena de alegría.
+                
+                En resumen, soy una estudiante de análisis y desarrollo de software que busca forjar amistades sinceras a pesar de mi timidez. Aunque enfrento dificultades académicas, estoy decidida a demostrar mi valía y convertirme en una exitosa ingeniera. El K-pop es una parte importante de mi vida, y encuentro inspiración en la música y el apoyo de quienes me rodean.</p>
+            
+            
+            <!-- <a href="#">Descargar CV</a> -->
+        </div>
+    </section>
+
+    <!-- SECCION S E R V I C I O S -->
+    <section id="servicios">
+        <h3 class="titulo-seccion">MIS SERVICIOS</h3>
+        <div class="fila">
+            <div class="servicio">
+                <span class="icono"> <i class="fa-solid fa-code"></i></span>
+                <h4>Diseño de Sitios Web</h4>
+                <hr>
+                <!-- <ul class="servicios-tag">
+                    <li>Web</li>
+                    <li>Graphic</li>
+                    <li>SEO</li>
+                </ul> -->
+                <p>El diseño de sitios web consiste en crear la apariencia visual y la estructura de un sitio web. Se seleccionan elementos gráficos, colores y tipografías para crear una experiencia atractiva. Además, se organiza el contenido y se crea una navegación intuitiva. El diseño se implementa utilizando lenguajes de programación como HTML, CSS y JavaScript. El objetivo es crear un sitio web funcional y estéticamente agradable que refleje la identidad de la marca y satisfaga las necesidades de los usuarios.</p>
+            </div>
+            <div class="servicio">
+                <span class="icono"><i class="fa-solid fa-file-code"></i></span>
+                <h4>Porgramación PHP</h4>
+                <hr>
+                <!-- <ul class="servicios-tag">
+                    <li>Web</li>
+                    <li>Graphic</li>
+                    <li>SEO</li>
+                </ul> -->
+                <p>PHP es un lenguaje de programación utilizado para el desarrollo web. Funciona en el lado del servidor y permite crear aplicaciones dinámicas y robustas. Con PHP, se pueden procesar formularios, acceder a bases de datos, manipular archivos y más. Es altamente compatible, flexible y ampliamente utilizado en la industria del desarrollo web.</p>
+            </div>
+            <div class="servicio">
+                <span class="icono"><i class="fa-solid fa-arrow-trend-up"></i></span>
+                <h4>Posicionamiento SEO</h4>
+                <hr>
+                <!-- <ul class="servicios-tag">
+                    <li>Web</li>
+                    <li>Graphic</li>
+                    <li>SEO</li>
+                </ul> -->
+                <p>El posicionamiento SEO es el conjunto de técnicas utilizadas para mejorar la visibilidad de un sitio web en los resultados de búsqueda orgánica. Esto se logra mediante la optimización del contenido, la estructura del sitio y la generación de enlaces de calidad. El objetivo es obtener un mejor ranking en los motores de búsqueda y atraer tráfico relevante. Es un proceso continuo y requiere seguir las mejores prácticas y adaptarse a los cambios en los algoritmos de los motores de búsqueda.</p>
+            </div>
+        </div>
+        <div class="fila">
+            <div class="servicio">
+                <span class="icono"><i class="fa-solid fa-database"></i></span>
+                <h4>Alojamiento de Sitios</h4>
+                <hr>
+                <!-- <ul class="servicios-tag">
+                    <li>Web</li>
+                    <li>Graphic</li>
+                    <li>SEO</li>
+                </ul> -->
+                <p>El alojamiento de sitios web es el servicio que permite almacenar y hacer accesible un sitio web en Internet. Proporciona un espacio en un servidor y ofrece características como almacenamiento, ancho de banda y soporte técnico. Existen diferentes tipos de alojamiento, como compartido, VPS y dedicado. Es fundamental elegir un proveedor confiable y escalable para garantizar la disponibilidad del sitio web en línea.</p>
+            </div>
+            <div class="servicio">
+                <span class="icono"><i class="fa-solid fa-palette"></i></span>
+                <h4>Diseñador Gráfico</h4>
+                <hr>
+                <!-- <ul class="servicios-tag">
+                    <li>Web</li>
+                    <li>Graphic</li>
+                    <li>SEO</li> -->
+                </ul>
+                <p>Un diseñador gráfico es un profesional creativo que utiliza elementos visuales para comunicar mensajes de manera efectiva. Su trabajo abarca proyectos como diseño de logotipos, identidad de marca, publicidad y diseño web. Requiere habilidades técnicas, creatividad y capacidad de trabajo en equipo. El diseñador gráfico desempeña un papel fundamental en la creación de identidades visuales y la comunicación visual en diversos medios.</p>
+            </div>
+            <div class="servicio">
+                <span class="icono"><i class="fa-solid fa-person-circle-question"></i></span>
+                <h4>Consultor Externo</h4>
+                <hr>
+                <!-- <ul class="servicios-tag">
+                    <li>Web</li>
+                    <li>Graphic</li>
+                    <li>SEO</li> -->
+                </ul>
+                <p>Un consultor externo es un profesional contratado temporalmente por una empresa para brindar asesoramiento y consultoría en áreas específicas. Su función es analizar los desafíos y problemas de la organización, ofrecer soluciones y ayudar en su implementación. El consultor externo aporta experiencia, conocimientos especializados y una perspectiva objetiva desde fuera de la empresa. Su contratación brinda flexibilidad y beneficios a la organización al obtener una visión fresca y experta para abordar los desafíos empresariales.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION H A B I L I D A D E S -->
+    <div class="contenedor-skills" id="skills">
+        <h3>HABILIDADES </h3>
+        <div class="skill">
+            <div class="info">
+                <p> <span class="lista"> </span>Html & Css</p>
+                <span class="porcentaje">95%</span>
+            </div>
+
+            <div class="barra">
+                <div class="" id="html"></div>
+            </div>
+        </div>
+        <div class="skill">
+            <div class="info">
+                <p> <span class="lista"> </span>Javascript</p>
+                <span class="porcentaje">70%</span>
+            </div>
+
+            <div class="barra">
+                <div class="" id="js"></div>
+            </div>
+        </div>
+        <div class="skill">
+            <div class="info">
+                <p> <span class="lista"> </span>Bases de Datos</p>
+                <span class="porcentaje">90%</span>
+            </div>
+
+            <div class="barra">
+                <div class="" id="bd"></div>
+            </div>
+        </div>
+        <div class="skill">
+            <div class="info">
+                <p> <span class="lista"> </span>Photoshop</p>
+                <span class="porcentaje">85%</span>
+            </div>
+
+            <div class="barra">
+                <div class="" id="ps"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- SECCION PORTAFOLIO -->
+    <section id="portfolio">
+        <h3 class="titulo-seccion">Mis Proyectos</h3>
+        <div class="fila">
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="https://www.creasystem.net/assets/uploads/media-uploader/6-consejos-para-hacer-tu-tienda-online-mas-segura1663690225.jpg" alt="">
+                <div class="info">
+                    <h4>
+                        Sitio web de una tienda de moda en línea: Un sitio web que ofrece una amplia selección de productos de moda, desde ropa hasta accesorios y calzado, con un proceso de compra seguro y fácil.
+                    </h4>
+                    <!-- <p>Diseño Web</p> -->
+                </div>
+            </div>
+            <div class="proyecto">
+                <div class="overlay"></div>
+<img src="https://www.muycomputer.com/wp-content/uploads/2023/04/gestion_de_tareas-1000x600.jpg" alt="">
+                <div class="info">
+                    <h4> Aplicación de gestión de tareas: Una aplicación que ayuda a los usuarios a organizar y priorizar sus tareas diarias, establecer recordatorios y maximizar la eficiencia.</h4>
+                    <!-- <p>Diseño Web</p> -->
+                </div>
+            </div>
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="https://1.bp.blogspot.com/-cTLFnSEQMZ8/VgABKeyzAoI/AAAAAAAABTY/IRD_gGPwJ5g/s1600/preguntas%2By%2Brespuestas.jpg" alt="">
+                <div class="info">
+                    <h4>Juego interactivo de preguntas y respuestas: Un juego interactivo en el que los usuarios pueden poner a prueba sus conocimientos en diferentes temas, disfrutando de desafiantes preguntas de opción múltiple. </h4>
+                    <!-- <p>Diseño Web</p> -->
+                </div>
+            </div>
+        </div>
+        
+        
+    </section>
+
+    <!-- SECCTION C O N T A C T O -->
+    <section id="contacto">
+        <h3 class="titulo-seccion">Contactanos ahora</h3>
+        <div class="contenedor-form">
+            <form action="">
+                <div class="fila mitad">
+                    <input type="text" placeholder="Nombre Completo *" class="input-mitad">
+                    <input type="email" placeholder="Dirección de Email" class="input-mitad">
+                </div>
+                <div class="fila">
+                    <input type="text" placeholder="Tema..." class="input-full">
+                </div>
+                <div class="fila">
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Tu Mensaje..." class="input-full"></textarea>
+                </div>
+
+                <input type="submit" value="Enviar Mensaje" class="btn-enviar">
+            </form>
+        </div>
+    </section>
+
+    <!-- SECCION FOOTER -->
+    <footer>
+        <p>Todos los derechos reservados - 2023</p>
+        <div class="redes">
+            <a href="#"><i class="fa-brands fa-youtube"></i></a>
+            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram-square"></i></a>
+        </div>
+
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
